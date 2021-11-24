@@ -501,6 +501,7 @@ Status ArmConcatLayerAcc::DoForward(const std::vector<Blob *> &inputs, const std
     }
     return TNNERR_LAYER_ERR;
 }
+// test_ci
 
 REGISTER_ARM_ACC(Concat, LAYER_CONCAT)
 REGISTER_ARM_PRECISION_FP16(LAYER_CONCAT)
